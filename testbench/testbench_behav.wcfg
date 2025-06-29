@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="16666666fs"></ZoomStartTime>
+      <ZoomEndTime time="116666667fs"></ZoomEndTime>
+      <Cursor1Time time="100000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="140"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DataAdr" type="array">
+      <obj_property name="ElementShortName">DataAdr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DataAdr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/w_WriteData" type="array">
+      <obj_property name="ElementShortName">w_WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/w_DataAdr" type="array">
+      <obj_property name="ElementShortName">w_DataAdr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_DataAdr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/w_MemWrite" type="logic">
+      <obj_property name="ElementShortName">w_MemWrite</obj_property>
+      <obj_property name="ObjectShortName">w_MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/memi/a" type="array">
+      <obj_property name="ElementShortName">a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/memi/a" type="array">
+      <obj_property name="ElementShortName">a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/mpd/PCF" type="array">
+      <obj_property name="ElementShortName">PCF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/mpd/PCNextF" type="array">
+      <obj_property name="ElementShortName">PCNextF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCNextF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/mpc/PCSrcE" type="logic">
+      <obj_property name="ElementShortName">PCSrcE</obj_property>
+      <obj_property name="ObjectShortName">PCSrcE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/mpd/ZeroE" type="logic">
+      <obj_property name="ElementShortName">ZeroE</obj_property>
+      <obj_property name="ObjectShortName">ZeroE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/mpc/BranchE" type="logic">
+      <obj_property name="ElementShortName">BranchE</obj_property>
+      <obj_property name="ObjectShortName">BranchE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/mpc/JumpE" type="logic">
+      <obj_property name="ElementShortName">JumpE</obj_property>
+      <obj_property name="ObjectShortName">JumpE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/InstrF" type="array">
+      <obj_property name="ElementShortName">InstrF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstrF[31:0]</obj_property>
+   </wvobject>
+</wave_config>
