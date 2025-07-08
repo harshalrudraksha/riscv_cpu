@@ -48,8 +48,8 @@ Overview: A 5-stage pipelined RISC-V processor written in Verilog. It supports t
 
 1. Compile all `.v` files.
 2. Include these memory files:
-   - `rvpfinal.hex`(for DMEM)
-   - `rvtest.hex`(for IMEM)
+   - `rvpfinal.hex`(for IMEM)
+   - `rvtest.hex`(for DMEM)
    - `regfile.hex`(for RegFile)
 3. Run `testbench.v` as the top simulation module.
 
