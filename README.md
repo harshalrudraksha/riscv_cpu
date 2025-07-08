@@ -47,10 +47,10 @@ Overview: A 5-stage pipelined RISC-V processor written in Verilog. It supports t
 ## 🛠️ How to Simulate
 
 1. Compile all `.v` files.
-2. Include these memory initialization files:
-   - `rvpfinal.hex`
-   - `rvtest.hex`
-   - `regfile.hex`
+2. Include these memory files:
+   - `rvpfinal.hex`(for DMEM)
+   - `rvtest.hex`(for IMEM)
+   - `regfile.hex`(for RegFile)
 3. Run `testbench.v` as the top simulation module.
 
 ---
